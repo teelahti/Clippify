@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Clippify Chrome extension", "Clippify Chrome extension", "{B8711B65-2057-4B66-8941-393909408BE6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "Clippify Chrome extension\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Clippify Chrome extension\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/Clippify Chrome extension"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "Clippify Chrome extension\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Clippify Chrome extension\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/Clippify Chrome extension"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProjectName = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		VWDPort = "23664"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "Clippify Chrome extension\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Clippify Chrome extension\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/Clippify Chrome extension"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "Clippify Chrome extension\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Clippify Chrome extension\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/Clippify Chrome extension"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		VWDPort = "23664"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = Clippify\u0020Chrome\u0020extension
+		SccNumberOfProjects = 2
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectName1 = Clippify\u0020Chrome\u0020extension
+		SccProjectUniqueName1 = Clippify\u0020Chrome\u0020extension
+		SccTeamFoundationServer = https://tbay.tfspreview.com/defaultcollection
+		SccWebProject1 = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8711B65-2057-4B66-8941-393909408BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8711B65-2057-4B66-8941-393909408BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

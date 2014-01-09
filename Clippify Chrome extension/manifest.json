@@ -1,0 +1,27 @@
+﻿{
+    "name": "Clippify",
+    "version": "1.0",
+	"manifest_version": 2,
+	"description": "Brings up clippy when visiting any Microsoft domain. Uses clippy.js courtesy of http://www.smore.com/clippy-js",
+    "icons" : {
+        "48" : "clippify-48.png",
+        "128" : "clippify-128.png"
+     },
+	"page_action" :
+	{
+	    "default_icon" : "clippify-19.png",
+	    "default_title" : "Clippy can help you out!"
+	},
+	"content_scripts" : [
+    {
+      "matches" : [
+        "http://*.microsoft.com/*",
+        "https://*.microsoft.com/*"
+      ],
+      "js" : ["contentscript.js"],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+	],
+	"web_accessible_resources": [ "initializeClippy.js", "jquery.min.js", "clippy.min.js", "clippy.css" ]
+}
